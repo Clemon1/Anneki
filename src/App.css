@@ -1,38 +1,230 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.sidebody {
+  background: #011627 !important;
+  width: 300px !important;
+  min-width: 300px !important;
+  color: #0d0f13;
+}
+.sidebody1 {
+  width: 350px !important;
+  min-width: 350px !important;
+  background: #011627 !important;
+  padding: 10px 22px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contentBody {
+  width: 715px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.LogoBody h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.iconsColor {
+  width: 18%;
+  height: 34px;
+}
+.iconsColor3 {
+  width: 20%;
+  margin-top: -14px;
+  height: 64px;
+  color: #ffffff;
+}
+.btnBody {
+  padding: 11px !important;
+  border: none !important;
+  background: rgb(122 57 163) !important;
+  width: 50px;
+  height: 50px !important;
+  color: rgb(225, 235, 253) !important;
+}
+.listBody {
   display: flex;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff !important;
+  padding: 4px 8px 4px 20px;
+}
+.listMain,
+.listMain::after {
+  background: #011627 !important;
+  border: none !important;
+}
+.listMain li:focus,
+.listMain li::after {
+  background-color: #011627 !important;
+  border: none !important;
+}
+.menuMain2 {
+  background: #011627 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  align-items: center;
+}
+
+.storyProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14%;
+}
+.storyProfile h2 {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #011627 !important;
+}
+
+.menu1 {
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.menu2 {
+  width: 100%;
+
+  height: 34vh;
+}
+.menu3 {
+  width: 100%;
+}
+
+.inputBody {
+  display: flex;
+  justify-content: center;
+  background: rgb(225, 235, 253);
+  border: 3px solid rgb(225, 235, 253);
+  border-radius: 20px;
+  padding: 4px;
+}
+.iconsColor1 {
+  width: 12%;
+  height: 30px;
+  color: #011627;
+}
+.search {
+  padding: 2px;
+  border: none;
+  background: rgb(225, 235, 253);
+  outline: none;
+  color: #0d0f13;
+  font-weight: 500;
+}
+.menuList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.p1 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.p2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(225, 235, 253);
+}
+
+.menu2 ul {
+  width: 100%;
+}
+.menu2 ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  gap: 26px;
+  height: 13vh;
+  padding: 2px;
+}
+.usersAvater {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.userBody {
+  display: flex;
+  height: 27px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 5px;
+}
+.p3 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.p4 {
+  font-size: 10px;
+}
+.btnFollow {
+  background: #ffffff !important;
+  color: rgb(122 57 163) !important;
+  font-weight: 500 !important;
+  width: 7rem;
+  border: 2px solid rgb(122 57 163) !important;
+}
+.btnFollow1 {
+  background: rgb(122 57 163) !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  width: 7rem;
+  border: 2px solid rgb(122 57 163) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btnTweet {
+  width: 100% !important;
+  height: 8vh !important;
+  text-align: center !important;
+  padding: 21px !important;
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 27px !important;
+  font-weight: 500 !important;
+  background: rgb(122 57 163) !important;
+  border: rgb(122 57 163) !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdownBody {
+  width: 100% !important;
+  height: 8vh !important;
+  font-size: 17px;
+  font-weight: 600 !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  align-items: center;
+  color: #ffffff !important;
+}
+.dropdownIcon {
+  width: 25px;
+}
+.listMain1 {
+  background: #011627 !important;
+  border: none !important;
+  height: 28vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 84px;
+  align-items: center;
 }
