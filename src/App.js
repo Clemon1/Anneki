@@ -4,14 +4,19 @@ import "antd/dist/antd.min.css";
 import { Avatar, Button } from "antd";
 import LeftSidebar from "./Components/leftSidebar";
 import Rightsidebar from "./Components/rightSidebar";
-import { AntDesignOutlined } from "@ant-design/icons";
+// Import Swiper React components
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/scrollbar";
 import { Layout, Divider } from "antd";
 import instaimage from "../src/Images/instaPic.jpg";
 import {
   AnnotationIcon,
   BookmarkIcon,
-  ChevronLeftIcon,
-  ChevronRightIcon,
   DotsHorizontalIcon,
   SwitchHorizontalIcon,
   ThumbUpIcon,
@@ -40,12 +45,14 @@ function App() {
               alignItems: "center",
               background: "#E1EBFD",
             }}>
-            <span className='iconCaurselBody'>
-              {" "}
-              <ChevronLeftIcon className='iconsColorCaurosel' />{" "}
-            </span>
-            <ul className='caurosel'>
-              <li className='items'>
+            <Swiper
+              modules={[Navigation]}
+              spaceBetween={10}
+              slidesPerView={5}
+              navigation
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}>
+              <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
                     size={64}
@@ -58,9 +65,8 @@ function App() {
                   </Avatar>
                   <h2> Clemon</h2>
                 </span>
-              </li>
-              <li className='items'>
-                {" "}
+              </SwiperSlide>
+              <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
                     size={64}
@@ -73,8 +79,9 @@ function App() {
                   </Avatar>
                   <h2> Luffy</h2>
                 </span>
-              </li>
-              <li className='items'>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
                 <span className='storyProfile'>
                   <Avatar
                     size={64}
@@ -87,8 +94,8 @@ function App() {
                   </Avatar>
                   <h2> Sanji</h2>
                 </span>
-              </li>
-              <li className='items'>
+              </SwiperSlide>
+              <SwiperSlide>
                 {" "}
                 <span className='storyProfile'>
                   <Avatar
@@ -102,9 +109,8 @@ function App() {
                   </Avatar>
                   <h2> Lylla</h2>
                 </span>
-              </li>
-              <li className='items'>
-                {" "}
+              </SwiperSlide>
+              <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
                     size={64}
@@ -113,13 +119,12 @@ function App() {
                       color: "#f56a00",
                       backgroundColor: "#fde3cf",
                     }}>
-                    Z
+                    LA
                   </Avatar>
-                  <h2> Zoro</h2>
+                  <h2> Lylla</h2>
                 </span>
-              </li>
-              <li className='items'>
-                {" "}
+              </SwiperSlide>
+              <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
                     size={64}
@@ -128,12 +133,12 @@ function App() {
                       color: "#f56a00",
                       backgroundColor: "#fde3cf",
                     }}>
-                    SK
+                    LA
                   </Avatar>
-                  <h2>Shanks</h2>
+                  <h2> Lylla</h2>
                 </span>
-              </li>
-              <li className='items'>
+              </SwiperSlide>
+              <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
                     size={64}
@@ -142,29 +147,12 @@ function App() {
                       color: "#f56a00",
                       backgroundColor: "#fde3cf",
                     }}>
-                    OD
+                    LA
                   </Avatar>
-                  <h2> Odera</h2>
+                  <h2> Lylla</h2>
                 </span>
-              </li>
-              <li className='items'>
-                <span className='storyProfile'>
-                  <Avatar
-                    size={64}
-                    style={{
-                      border: "#7a39a3 3px solid",
-                      color: "#f56a00",
-                      backgroundColor: "#fde3cf",
-                    }}>
-                    KC
-                  </Avatar>
-                  <h2> KC Unive..</h2>
-                </span>
-              </li>
-            </ul>
-            <span className='iconCaurselBody'>
-              <ChevronRightIcon className='iconsColorCaurosel' />
-            </span>
+              </SwiperSlide>
+            </Swiper>
           </Header>
           <Divider
             style={{

@@ -375,3 +375,50 @@
   font-size: 10px;
   font-weight: 500;
 }
+.Swipper-container {
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 5px !important;
+  width: 6% !important;
+  color: rgb(122 57 163) !important;
+  height: 32px !important;
+  background: #ffffff !important;
+  border-radius: 100%;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 10px;
+  left: auto;
+  width: 6% !important;
+  color: rgb(122 57 163) !important;
+  height: 32px !important;
+  background: #ffffff !important;
+  border-radius: 100%;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 22px !important;
+  font-weight: 900;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+.swiper-slide {
+  width: 95px !important;
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90% !important;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 2px 27px !important;
+  z-index: 1;
+}
