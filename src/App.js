@@ -105,9 +105,9 @@ function App() {
                       color: "#f56a00",
                       backgroundColor: "#fde3cf",
                     }}>
-                    LA
+                    CP
                   </Avatar>
-                  <h2> Lylla</h2>
+                  <h2> Chopper</h2>
                 </span>
               </SwiperSlide>
               <SwiperSlide>
@@ -119,9 +119,9 @@ function App() {
                       color: "#f56a00",
                       backgroundColor: "#fde3cf",
                     }}>
-                    LA
+                    Z
                   </Avatar>
-                  <h2> Lylla</h2>
+                  <h2> Zoro</h2>
                 </span>
               </SwiperSlide>
               <SwiperSlide>
@@ -133,9 +133,9 @@ function App() {
                       color: "#f56a00",
                       backgroundColor: "#fde3cf",
                     }}>
-                    LA
+                    SK
                   </Avatar>
-                  <h2> Lylla</h2>
+                  <h2> Shanks</h2>
                 </span>
               </SwiperSlide>
               <SwiperSlide>
