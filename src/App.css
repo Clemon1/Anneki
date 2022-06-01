@@ -19,7 +19,7 @@
 }
 
 .contentBody {
-  width: 715px !important;
+  width: 697px !important;
 }
 .LogoBody h1 {
   font-size: 25px;
@@ -258,4 +258,120 @@
 .caurosel .items {
   scroll-snap-align: start;
   list-style: none;
+}
+
+.dropdownIconCard {
+  width: 25px;
+  color: #0d0f13;
+}
+
+.CardBody {
+  background: #ffffff;
+  width: 550px;
+  height: auto;
+  border-radius: 5px;
+}
+.CardBody .CardTop {
+  width: 100%;
+  height: 10vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CardTop .Top1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Top1 p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d0f13;
+  display: contents;
+  text-align: center;
+}
+.CardBody .CardDivider {
+  margin: 0px !important;
+}
+
+.CardBody .CardImg {
+  width: 100%;
+  height: 370px;
+}
+.CardBody .CardImg .imgCard {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.CardBody .CardContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.CardBody .CardContent .Content1 {
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CardBody .CardContent .Content1 .Content1A {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.btnCard {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  padding: 1px !important;
+  box-shadow: none !important;
+}
+.btnIconCard {
+  width: 25px;
+  color: #0d0f13;
+}
+.Content2 {
+  width: 100%;
+  height: auto;
+  padding: 6px 20px;
+}
+.Content2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Content2 ul li {
+  list-style: none;
+  width: 100%;
+  height: fit-content !important;
+}
+.Content2A {
+  font-size: 14px;
+  font-weight: 600;
+}
+.Content2B {
+  font-size: 14px;
+  font-weight: 600;
+}
+.Content2B p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  line-break: auto;
+}
+.Content2C {
+  font-size: 13px;
+  font-weight: 400;
+}
+.Content2D {
+  font-size: 10px;
+  font-weight: 500;
 }
