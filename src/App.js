@@ -6,6 +6,7 @@ import LeftSidebar from "./Components/leftSidebar";
 import Rightsidebar from "./Components/rightSidebar";
 import { AntDesignOutlined } from "@ant-design/icons";
 import { Layout, Divider } from "antd";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
 const { Header, Content } = Layout;
 
 function App() {
@@ -21,74 +22,123 @@ function App() {
           <Header
             className='site-layout-sub-header-background'
             style={{
-              padding: "10px 40px",
-              height: 125,
-              gap: "10px",
+              padding: "4px 30px",
+              height: 120,
+              gap: "31px",
               width: 715,
-              justifyContent: "flex-start",
+              justifyContent: "space-around",
               display: "flex",
               alignItems: "center",
               background: "#E1EBFD",
             }}>
-            <span className='storyProfile'>
-              <Avatar
-                style={{
-                  border: "#7a39a3 3px solid",
-                }}
-                size={64}
-                icon={<AntDesignOutlined />}
-              />
-              <h2> Clemon</h2>
+            <span className='iconCaurselBody'>
+              {" "}
+              <ChevronLeftIcon className='iconsColorCaurosel' />{" "}
             </span>
-            <span className='storyProfile'>
-              <Avatar
-                style={{
-                  border: "#7a39a3 3px solid",
-                }}
-                size={64}
-                icon={<AntDesignOutlined />}
-              />
-              <h2> Thompson</h2>
-            </span>
-            <span className='storyProfile'>
-              <Avatar
-                style={{
-                  border: "#7a39a3 3px solid",
-                }}
-                size={64}
-                icon={<AntDesignOutlined />}
-              />
-              <h2> Baman</h2>
-            </span>
-            <span className='storyProfile'>
-              <Avatar
-                style={{
-                  border: "#7a39a3 3px solid",
-                }}
-                size={64}
-                icon={<AntDesignOutlined />}
-              />
-              <h2> Lylla</h2>
-            </span>
-            <span className='storyProfile'>
-              <Avatar
-                style={{
-                  border: "#7a39a3 3px solid",
-                }}
-                size={64}
-                icon={<AntDesignOutlined />}
-              />
-              <h2> Odera</h2>
-            </span>
-            <span className='storyProfile'>
-              <Avatar
-                style={{
-                  border: "#7a39a3 3px solid",
-                }}
-                size={64}
-                icon={<AntDesignOutlined />}
-              />
-              <h2> KC Unive..</h2>
+            <ul className='caurosel'>
+              <li className='items'>
+                <span className='storyProfile'>
+                  <Avatar
+                    style={{
+                      border: "#7a39a3 3px solid",
+                    }}
+                    size={64}
+                    icon={<AntDesignOutlined />}
+                  />
+                  <h2> Clemon</h2>
+                </span>
+              </li>
+              <li className='items'>
+                {" "}
+                <span className='storyProfile'>
+                  <Avatar
+                    style={{
+                      border: "#7a39a3 3px solid",
+                    }}
+                    size={64}
+                    icon={<AntDesignOutlined />}
+                  />
+                  <h2> Luffy</h2>
+                </span>
+              </li>
+              <li className='items'>
+                <span className='storyProfile'>
+                  <Avatar
+                    style={{
+                      border: "#7a39a3 3px solid",
+                    }}
+                    size={64}
+                    icon={<AntDesignOutlined />}
+                  />
+                  <h2> Sanji</h2>
+                </span>
+              </li>
+              <li className='items'>
+                {" "}
+                <span className='storyProfile'>
+                  <Avatar
+                    style={{
+                      border: "#7a39a3 3px solid",
+                    }}
+                    size={64}
+                    icon={<AntDesignOutlined />}
+                  />
+                  <h2> Lylla</h2>
+                </span>
+              </li>
+              <li className='items'>
+                {" "}
+                <span className='storyProfile'>
+                  <Avatar
+                    style={{
+                      border: "#7a39a3 3px solid",
+                    }}
+                    size={64}
+                    icon={<AntDesignOutlined />}
+                  />
+                  <h2> Zoro</h2>
+                </span>
+              </li>
+              <li className='items'>
+                {" "}
+                <span className='storyProfile'>
+                  <Avatar
+                    style={{
+                      border: "#7a39a3 3px solid",
+                    }}
+                    size={64}
+                    icon={<AntDesignOutlined />}
+                  />
+                  <h2>Shanks</h2>
+                </span>
+              </li>
+              <li className='items'>
+                <span className='storyProfile'>
+                  <Avatar
+                    style={{
+                      border: "#7a39a3 3px solid",
+                    }}
+                    size={64}
+                    icon={<AntDesignOutlined />}
+                  />
+                  <h2> Odera</h2>
+                </span>
+              </li>
+              <li className='items'>
+                <span className='storyProfile'>
+                  <Avatar
+                    style={{
+                      border: "#7a39a3 3px solid",
+                    }}
+                    size={64}
+                    icon={<AntDesignOutlined />}
+                  />
+                  <h2> KC Unive..</h2>
+                </span>
+              </li>
+            </ul>
+            <span className='iconCaurselBody'>
+              <ChevronRightIcon className='iconsColorCaurosel' />
             </span>
           </Header>
           <Divider
