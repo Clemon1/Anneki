@@ -4,6 +4,7 @@ import "antd/dist/antd.min.css";
 import { Avatar, Button } from "antd";
 import LeftSidebar from "./Components/leftSidebar";
 import Rightsidebar from "./Components/rightSidebar";
+import BottomNavigation from "./Components/bottomNav";
 // Import Swiper React components
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -369,6 +370,7 @@ function App() {
                 </div>
               </div>
             </div>
+            <BottomNavigation />
           </Content>
         </Layout>
         <Rightsidebar />
