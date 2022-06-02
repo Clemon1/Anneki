@@ -286,6 +286,7 @@ function App() {
               style={{
                 padding: 24,
                 minHeight: "fit-content",
+                paddingBottom: 80,
               }}>
               <div
                 className=''
