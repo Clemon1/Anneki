@@ -422,3 +422,31 @@
   padding: 2px 27px !important;
   z-index: 1;
 }
+
+@media (max-width: 992px) {
+  .sidebody {
+    display: none !important;
+  }
+  .rightSidebar {
+    display: none !important;
+  }
+  .site-layout {
+    margin-left: 0px !important;
+  }
+  .headerbody1 {
+    padding: 11px 68px !important;
+    height: 120px;
+    width: 100% !important;
+  }
+  .contentBody {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerbody1 {
+    padding: 10px 20px !important;
+    height: 120px;
+    width: 100% !important;
+  }
+}

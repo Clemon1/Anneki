@@ -34,7 +34,7 @@ function App() {
             marginLeft: 300,
           }}>
           <Header
-            className='site-layout-sub-header-background'
+            className='headerbody1'
             style={{
               padding: "4px 30px",
               height: 120,
@@ -55,7 +55,14 @@ function App() {
               <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
-                    size={64}
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
                     style={{
                       border: "#7a39a3 3px solid",
                       color: "#f56a00",
@@ -69,7 +76,14 @@ function App() {
               <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
-                    size={64}
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
                     style={{
                       border: "#7a39a3 3px solid",
                       color: "#f56a00",
@@ -84,7 +98,14 @@ function App() {
                 {" "}
                 <span className='storyProfile'>
                   <Avatar
-                    size={64}
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
                     style={{
                       border: "#7a39a3 3px solid",
                       color: "#f56a00",
@@ -96,10 +117,16 @@ function App() {
                 </span>
               </SwiperSlide>
               <SwiperSlide>
-                {" "}
                 <span className='storyProfile'>
                   <Avatar
-                    size={64}
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
                     style={{
                       border: "#7a39a3 3px solid",
                       color: "#f56a00",
@@ -113,7 +140,14 @@ function App() {
               <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
-                    size={64}
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
                     style={{
                       border: "#7a39a3 3px solid",
                       color: "#f56a00",
@@ -127,7 +161,14 @@ function App() {
               <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
-                    size={64}
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
                     style={{
                       border: "#7a39a3 3px solid",
                       color: "#f56a00",
@@ -141,7 +182,14 @@ function App() {
               <SwiperSlide>
                 <span className='storyProfile'>
                   <Avatar
-                    size={64}
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
                     style={{
                       border: "#7a39a3 3px solid",
                       color: "#f56a00",

@@ -13,6 +13,14 @@ const Rightsidebar = () => {
   return (
     <div className='rightSidebar'>
       <Sider
+        breakpoint='lg'
+        collapsedWidth='1'
+        onBreakpoint={(broken) => {
+          console.log(broken);
+        }}
+        onCollapse={(collapsed, type) => {
+          console.log(collapsed, type);
+        }}
         className='sidebody1'
         style={{
           overflow: "auto",
