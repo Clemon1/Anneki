@@ -422,7 +422,30 @@
   padding: 2px 27px !important;
   z-index: 1;
 }
+.TopNav {
+  width: 100%;
+  height: 55px;
+  background: #011627;
+  color: #ffffff;
+  display: flex;
+  display: none;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+}
 
+.TopNav ul {
+  width: 100%;
+  display: flex;
+}
+
+.TopNav ul li {
+  list-style: none;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .bottomNav {
   width: 100%;
   height: 55px;
@@ -462,6 +485,7 @@
     display: none !important;
   }
   .site-layout {
+    padding-top: 50px !important;
     margin-left: 0px !important;
   }
   .headerbody1 {
@@ -499,9 +523,48 @@
     justify-content: center;
     align-items: center;
   }
+
+  .TopNav {
+    width: 100%;
+    height: 55px;
+    background: #011627;
+    color: #ffffff;
+    display: flex;
+    z-index: 1000;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    padding: 10px;
+  }
+  .TopNav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .TopNav ul li {
+    list-style: none;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .iconBodyNav {
     width: 28px;
     color: #ffffff;
+  }
+  .iconBodyNav1 {
+    width: 32px;
+    color: #ffffff;
+  }
+  .btnTopNav {
+    background: transparent !important;
+    display: flex !important;
+    border: none !important;
+    height: 100% !important;
   }
 }
 

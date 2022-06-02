@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import "antd/dist/antd.min.css";
 import { Avatar, Button } from "antd";
+import Navbar from "./Components/navbar";
 import LeftSidebar from "./Components/leftSidebar";
 import Rightsidebar from "./Components/rightSidebar";
 import BottomNavigation from "./Components/bottomNav";
@@ -30,10 +31,11 @@ function App() {
       <Layout>
         <LeftSidebar />
         <Layout
-          className='site-layout '
+          className='site-layout'
           style={{
             marginLeft: 300,
           }}>
+          <Navbar />
           <Header
             className='headerbody1'
             style={{
