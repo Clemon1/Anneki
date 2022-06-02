@@ -48,7 +48,7 @@ function App() {
             <Swiper
               modules={[Navigation]}
               spaceBetween={10}
-              slidesPerView={5}
+              slidesPerView={4}
               navigation
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}>
@@ -198,6 +198,72 @@ function App() {
                     LA
                   </Avatar>
                   <h2> Lylla</h2>
+                </span>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <span className='storyProfile'>
+                  <Avatar
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
+                    style={{
+                      border: "#7a39a3 3px solid",
+                      color: "#f56a00",
+                      backgroundColor: "#fde3cf",
+                    }}>
+                    J
+                  </Avatar>
+                  <h2> John</h2>
+                </span>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <span className='storyProfile'>
+                  <Avatar
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
+                    style={{
+                      border: "#7a39a3 3px solid",
+                      color: "#f56a00",
+                      backgroundColor: "#fde3cf",
+                    }}>
+                    E
+                  </Avatar>
+                  <h2> Elibe</h2>
+                </span>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <span className='storyProfile'>
+                  <Avatar
+                    size={{
+                      xs: 54,
+                      sm: 60,
+                      md: 62,
+                      lg: 64,
+                      xl: 64,
+                      xxl: 68,
+                    }}
+                    style={{
+                      border: "#7a39a3 3px solid",
+                      color: "#f56a00",
+                      backgroundColor: "#fde3cf",
+                    }}>
+                    AD
+                  </Avatar>
+                  <h2> Abdul</h2>
                 </span>
               </SwiperSlide>
             </Swiper>
