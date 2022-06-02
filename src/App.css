@@ -547,6 +547,7 @@
   .TopNav ul li {
     list-style: none;
     width: 20%;
+    height: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
