@@ -48,7 +48,7 @@ function App() {
             <Swiper
               modules={[Navigation]}
               spaceBetween={10}
-              slidesPerView={5}
+              slidesPerView={3}
               navigation
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}>
