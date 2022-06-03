@@ -567,6 +567,14 @@
     border: none !important;
     height: 100% !important;
   }
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    display: none !important;
+  }
 }
 
 @media (max-width: 768px) {
