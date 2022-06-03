@@ -507,6 +507,7 @@
     color: #ffffff;
     display: flex;
     position: fixed;
+    z-index: 200000;
     bottom: 0;
     padding: 4px;
   }
@@ -579,7 +580,6 @@
     display: none !important;
   }
   .drawerBody {
-    height: 652px !important;
   }
   .drawerBody .ant-drawer-body {
     background: #011627 !important;
