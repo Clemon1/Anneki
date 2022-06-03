@@ -580,6 +580,7 @@
   }
   .drawerBody .ant-drawer-body {
     background: #011627 !important;
+    padding: 20px 10px !important;
   }
   .drawerBody .ant-drawer-header {
     background: #011627 !important;
