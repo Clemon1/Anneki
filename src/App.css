@@ -19,7 +19,7 @@
 }
 
 .contentBody {
-  width: 697px !important;
+  width: 716px !important;
 }
 .LogoBody h1 {
   font-size: 25px;
@@ -472,6 +472,9 @@
 .iconBodyNav {
   width: 28px;
   color: #ffffff;
+}
+.sidebody .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #011627 !important;
 }
 
 @media (max-width: 992px) {

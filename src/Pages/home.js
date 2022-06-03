@@ -25,7 +25,7 @@ const Home = () => {
             padding: "4px 30px",
             height: 120,
             gap: "31px",
-            width: 697,
+            width: 716,
             justifyContent: "space-around",
             display: "flex",
             alignItems: "center",
