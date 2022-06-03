@@ -575,6 +575,31 @@
   .swiper-rtl .swiper-button-next {
     display: none !important;
   }
+  .drawerBody {
+    height: 652px !important;
+  }
+  .drawerBody .ant-drawer-body {
+    background: #011627 !important;
+  }
+  .drawerBody .ant-drawer-header {
+    background: #011627 !important;
+    color: #ffffff !important;
+  }
+  .drawerBody .ant-drawer-title {
+    flex: 1 1;
+    margin: 0;
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 22px;
+  }
+  .drawerBody .ant-drawer-close {
+    display: inline-block;
+    margin-right: 12px;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 17px !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -659,5 +684,8 @@
   .iconBodyNav {
     width: 24px;
     color: #ffffff;
+  }
+  .drawerBody {
+    height: 652px !important;
   }
 }

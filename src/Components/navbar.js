@@ -1,6 +1,14 @@
 import React, { useState } from "react";
-import { Avatar, Drawer, Button } from "antd";
-import { CogIcon, LightningBoltIcon } from "@heroicons/react/solid";
+import { Avatar, Drawer, Button, Menu } from "antd";
+import {
+  CogIcon,
+  LightningBoltIcon,
+  HomeIcon,
+  ChatIcon,
+  BookmarkIcon,
+  UserIcon,
+} from "@heroicons/react/solid";
+
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
 
@@ -32,14 +40,50 @@ const Navbar = () => {
             </Avatar>
           </Button>
           <Drawer
+            className='drawerBody'
             title='Anneki'
             placement='left'
             width={250}
             onClose={onClose}
             visible={visible}>
-            <p>Some contents...</p>
-            <p>Some contents...</p>
-            <p>Some contents...</p>
+            <div>
+              <Menu
+                className='listMain'
+                mode='inline'
+                defaultSelectedKeys={["4"]}>
+                <Menu.Item>
+                  <span className='listBody'>
+                    <HomeIcon className='iconsColor' />
+                    Home
+                  </span>
+                </Menu.Item>
+                <Menu.Item>
+                  <span className='listBody'>
+                    <ChatIcon className='iconsColor' />
+                    Messages
+                  </span>
+                </Menu.Item>
+
+                <Menu.Item>
+                  <span className='listBody'>
+                    <BookmarkIcon className='iconsColor' />
+                    Save Post
+                  </span>
+                </Menu.Item>
+                <Menu.Item>
+                  <span className='listBody'>
+                    <UserIcon className='iconsColor' />
+                    Profile
+                  </span>
+                </Menu.Item>
+                <Menu.Item>
+                  <span className='listBody'>
+                    <CogIcon className='iconsColor' />
+                    Settings
+                  </span>
+                </Menu.Item>
+              </Menu>
+            </div>
           </Drawer>
         </li>
         <li>
