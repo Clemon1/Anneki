@@ -604,6 +604,12 @@
     font-weight: 700;
     font-size: 17px !important;
   }
+  .sidebody .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #011627 !important;
+  }
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #011627 !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -688,8 +694,5 @@
   .iconBodyNav {
     width: 24px;
     color: #ffffff;
-  }
-  .drawerBody {
-    height: 652px !important;
   }
 }
