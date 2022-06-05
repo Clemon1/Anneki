@@ -1,6 +1,6 @@
 import {
   BellIcon,
-  CollectionIcon,
+  CubeIcon,
   HomeIcon,
   MailIcon,
   SearchIcon,
@@ -16,7 +16,7 @@ const BottomNavigation = () => {
           <SearchIcon className='iconBodyNav' />
         </li>
         <li>
-          <CollectionIcon className='iconBodyNav' />
+          <CubeIcon className='iconBodyNav' />
         </li>
         <li>
           <BellIcon className='iconBodyNav' />
