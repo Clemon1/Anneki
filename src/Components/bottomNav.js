@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   BellIcon,
   CubeIcon,
@@ -10,19 +11,29 @@ const BottomNavigation = () => {
     <nav className='bottomNav'>
       <ul>
         <li>
-          <HomeIcon className='iconBodyNav' />
+          <Link to='/'>
+            <HomeIcon className='iconBodyNav' />
+          </Link>
         </li>
         <li>
-          <SearchIcon className='iconBodyNav' />
+          <Link to='/'>
+            <SearchIcon className='iconBodyNav' />
+          </Link>
         </li>
         <li>
-          <CubeIcon className='iconBodyNav' />
+          <Link to=''>
+            <CubeIcon className='iconBodyNav' />
+          </Link>
         </li>
         <li>
-          <BellIcon className='iconBodyNav' />
+          <Link to=''>
+            <BellIcon className='iconBodyNav' />
+          </Link>
         </li>
         <li>
-          <MailIcon className='iconBodyNav' />
+          <Link to=''>
+            <MailIcon className='iconBodyNav' />
+          </Link>
         </li>
       </ul>
     </nav>

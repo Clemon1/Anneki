@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Avatar, Drawer, Button, Menu } from "antd";
 import {
   CogIcon,
@@ -54,7 +55,7 @@ const Navbar = () => {
                 <Menu.Item>
                   <span className='listBody'>
                     <HomeIcon className='iconsColor' />
-                    Home
+                    <Link to='/'>Home</Link>
                   </span>
                 </Menu.Item>
                 <Menu.Item>
@@ -73,7 +74,7 @@ const Navbar = () => {
                 <Menu.Item>
                   <span className='listBody'>
                     <UserIcon className='iconsColor' />
-                    Profile
+                    <Link to='profile'> Profile</Link>
                   </span>
                 </Menu.Item>
                 <Menu.Item>
