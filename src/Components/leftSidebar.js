@@ -2,6 +2,7 @@ import React from "react";
 import "antd/dist/antd.min.css";
 import { Avatar } from "antd";
 import { Layout, Menu, Dropdown, Space } from "antd";
+import { Link } from "react-router-dom";
 import { Button } from "antd";
 import {
   HomeIcon,
@@ -51,7 +52,7 @@ const LeftSidebar = () => {
           <Menu.Item>
             <span className='listBody'>
               <HomeIcon className='iconsColor' />
-              Home
+              <Link to='/'>Home</Link>
             </span>
           </Menu.Item>
           <Menu.Item>
@@ -70,7 +71,7 @@ const LeftSidebar = () => {
           <Menu.Item>
             <span className='listBody'>
               <UserIcon className='iconsColor' />
-              Profile
+              <Link to='profile'> Profile</Link>
             </span>
           </Menu.Item>
           <Menu.Item>

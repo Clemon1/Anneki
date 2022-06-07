@@ -67,6 +67,15 @@
   color: #ffffff !important;
   padding: 4px 8px 4px 20px;
 }
+.listBody .ant-menu-item-selected,
+.ant-menu-item-selected a,
+.ant-menu-item-selected a:hover {
+  color: #ffffff !important;
+}
+.listBody a {
+  color: #ffffff !important;
+}
+
 .listMain,
 .listMain::after {
   background: #011627 !important;
