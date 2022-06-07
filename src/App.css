@@ -43,7 +43,7 @@
   width: 70%;
   height: 64px;
   font-weight: 600;
-  color: purple;
+  color: #3c096c;
 }
 .iconsColor3 {
   width: 20%;
@@ -54,7 +54,7 @@
 .btnBody {
   padding: 11px !important;
   border: none !important;
-  background: rgb(122 57 163) !important;
+  background: #3c096c !important;
   width: 50px;
   height: 50px !important;
   color: rgb(225, 235, 253) !important;
@@ -190,17 +190,17 @@
 }
 .btnFollow {
   background: #ffffff !important;
-  color: rgb(122 57 163) !important;
+  color: #3c096c !important;
   font-weight: 500 !important;
   width: 7rem;
-  border: 2px solid rgb(122 57 163) !important;
+  border: 2px solid #3c096c !important;
 }
 .btnFollow1 {
-  background: rgb(122 57 163) !important;
+  background: #3c096c !important;
   color: #ffffff !important;
   font-weight: 500 !important;
   width: 7rem;
-  border: 2px solid rgb(122 57 163) !important;
+  border: 2px solid #3c096c !important;
 }
 
 .btnTweet {
@@ -214,8 +214,8 @@
   align-items: center;
   border-radius: 27px !important;
   font-weight: 500 !important;
-  background: rgb(122 57 163) !important;
-  border: rgb(122 57 163) !important;
+  background: #3c096c !important;
+  border: #3c096c !important;
 }
 .dropdownBody {
   width: 100% !important;
@@ -383,7 +383,7 @@
 .swiper-rtl .swiper-button-next {
   left: 5px !important;
   width: 6% !important;
-  color: rgb(122 57 163) !important;
+  color: #3c096c !important;
   height: 32px !important;
   background: #ffffff !important;
   border-radius: 100%;
@@ -393,7 +393,7 @@
   right: 10px;
   left: auto;
   width: 6% !important;
-  color: rgb(122 57 163) !important;
+  color: #3c096c !important;
   height: 32px !important;
   background: #ffffff !important;
   border-radius: 100%;
@@ -473,6 +473,7 @@
   width: 28px;
   color: #ffffff;
 }
+
 .sidebody .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
   background-color: #011627 !important;
 }

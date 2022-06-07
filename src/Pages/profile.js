@@ -1,6 +1,6 @@
 import { Tabs, Avatar, Image, Button } from "antd";
 import "../styles/profile.css";
-import { CollectionIcon, BookmarkIcon } from "@heroicons/react/solid";
+import { CollectionIcon, BookmarkIcon, CogIcon } from "@heroicons/react/solid";
 import pics1 from "../Images/pics1.jpg";
 import pics2 from "../Images/pic2.jpg";
 import pics3 from "../Images/pic3.jpg";
@@ -12,19 +12,18 @@ const { TabPane } = Tabs;
 
 const Profile = () => {
   return (
-    <div
-      className='profileBody'
-      style={{
-        width: 716,
-        height: 500,
-        padding: "24px 50px 80px",
-        background: "rgb(225, 235, 253)",
-      }}>
+    <div className='profileBody'>
       <div className='profileMain1'>
         <div className='Profile'>
           <div className='profile1'>
             <Avatar
-              size={160}
+              size={{
+                xs: 80,
+                sm: 32,
+                md: 40,
+                lg: 64,
+                xl: 160,
+              }}
               src={
                 <Image
                   src='https://joeschmoe.io/api/v1/random'
@@ -39,7 +38,10 @@ const Profile = () => {
           <div className='profile2'>
             <div className=' profile_User'>
               <p> Captain_Shanks</p>
-              <Button type='primary'> Edit Profile</Button>
+              <Button type='primary' className='btnProfile'>
+                {" "}
+                <CogIcon className='iconProfile ' />{" "}
+              </Button>
             </div>
             <div className='profile_Sub'>
               <ul>
