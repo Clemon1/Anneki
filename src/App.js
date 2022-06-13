@@ -31,7 +31,6 @@ function App() {
             <Route path='/' element={<Home />}></Route>
             <Route path='/profile' element={<Profile />}></Route>
           </Routes>
-
           <BottomNavigation />
         </Layout>
         <Rightsidebar />
